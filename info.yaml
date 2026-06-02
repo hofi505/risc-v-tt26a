@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "8-bit Risc"      # Project title
+  title:        "FER 8-bit Risc"      # Project title
   author:       "Jan"      # Your name
   discord:      "johndoe1285"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "8-bit Risc uP"      # One line description of what your project does

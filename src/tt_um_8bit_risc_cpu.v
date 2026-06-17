@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Robert Vitaliani
+ * Copyright (c) 2024 Jan Kozina
  * SPDX-License-Identifier: Apache-2.0
  */
 

@@ -1,5 +1,7 @@
 .DS_Store
 .idea
+.venv/
+test/.venv/
 *.vcd
 *.fst
 *.fst.hier
@@ -11,3 +13,11 @@ test/sim_build
 test/__pycache__/
 test/results.xml
 test/gate_level_netlist.v
+test/*.log
+test/test.py
+test/extended_test.py
+formal/
+tt/
+gds_render*.png
+gds_render*.svg
+KLayout*.png

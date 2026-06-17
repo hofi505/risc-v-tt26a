@@ -2,7 +2,7 @@
 `timescale 1ns / 1ps
 
 /* This testbench just instantiates the module and makes some convenient wires
-   that can be driven / tested by the cocotb test.py.
+   that can be driven / tested by cocotb.
 */
 module tb ();
 
@@ -27,8 +27,7 @@ module tb ();
   wire VGND = 1'b0;
 `endif
 
-  // Replace tt_um_example with your module name:
-  tt_um_asic_cpu user_project (
+  tt_um_8bit_risc_cpu tt_um_8bit_risc_cpu (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
